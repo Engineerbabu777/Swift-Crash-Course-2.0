@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:w3scools-swift}/hello-pkg",
+            "name": "Debug hello-pkg (hello-pkg)",
+            "target": "hello-pkg",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug hello-pkg (hello-pkg)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:w3scools-swift}/hello-pkg",
+            "name": "Release hello-pkg (hello-pkg)",
+            "target": "hello-pkg",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release hello-pkg (hello-pkg)"
+        }
+    ]
+}
